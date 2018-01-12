@@ -1,0 +1,19 @@
+{
+    "name": "joaojacome/simple-states",
+    "description": "Simple States Test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joao Jacome"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SimpleStates\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.5",
+        "nesbot/carbon": "^1.22"
+    }
+}
